@@ -1,0 +1,26 @@
+[debug] [2019-08-28T08:40:09.740Z] ----------------------------------------------------------------------
+[debug] [2019-08-28T08:40:09.742Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Khomotso.FCBJHB\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2019-08-28T08:40:09.743Z] CLI Version:   7.2.4
+[debug] [2019-08-28T08:40:09.743Z] Platform:      win32
+[debug] [2019-08-28T08:40:09.743Z] Node Version:  v10.16.0
+[debug] [2019-08-28T08:40:09.803Z] Time:          Wed Aug 28 2019 10:40:09 GMT+0200 (South Africa Standard Time)
+[debug] [2019-08-28T08:40:09.803Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-28T08:40:09.869Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-28T08:40:09.869Z] > authorizing via signed-in user
+[debug] [2019-08-28T08:40:09.869Z] [iam] checking project munchies-bcc85 for permissions ["firebase.projects.get"]
+[debug] [2019-08-28T08:40:09.871Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-28T08:40:09.871Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-28T08:40:10.669Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-28T08:40:10.694Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/munchies-bcc85:testIamPermissions  
+
+[debug] [2019-08-28T08:40:13.830Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-28T08:40:13.833Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/munchies-bcc85  
+ 
+[debug] [2019-08-28T08:40:14.705Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-28T08:40:14.706Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/munchies-bcc85/webApps/-/config  
+ 
+[debug] [2019-08-28T08:40:15.110Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000

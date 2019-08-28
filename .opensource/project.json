@@ -1,0 +1,12 @@
+{
+    "name": "Munchies Web - Firestore Codelab",
+    "platforms": [
+        "Web"
+    ],
+    "content": "README.md",
+    "related": [
+        "firebase/quickstart-js",
+        "firebase/friendlyeats-ios",
+        "firebase/friendlyeats-android"
+    ]
+}
